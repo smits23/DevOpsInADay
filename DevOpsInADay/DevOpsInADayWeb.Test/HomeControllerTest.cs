@@ -44,7 +44,7 @@ namespace DevOpsInADayWeb.Test
 
             var model = Assert.IsType<List<Event>>(viewResult.Model);
 
-            Assert.Equal(5, model.Count);
+            Assert.Equal(6, model.Count);
         }
 
         //[Fact]
